@@ -1,6 +1,6 @@
 # To start docker
 # if never define schedule thn it will run everyday 12PM
-$ docker run -e PRINTER_IP="192.168.88.90" -e CRON_SCHEDULE="0 15 * * *" -e TZ=Asia/Kuala_Lumpur -d --name print-scheduler print-scheduler
+$ docker run -e PRINTER_IP="192.168.88.90" -e CRON_SCHEDULE="0 15 * * *" -e TZ=Asia/Kuala_Lumpur -d --name print-scheduler jychoy/print-scheduler
 
 
 # To add printer
